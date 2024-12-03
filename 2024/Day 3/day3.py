@@ -7,6 +7,7 @@ def part1(data):
     matches = re.findall("mul\((\d+),(\d+)\)", data)
     result = sum(int(x) * int(y) for x, y in matches)
     print(result)
+    return result
 
 
 part1(data)
