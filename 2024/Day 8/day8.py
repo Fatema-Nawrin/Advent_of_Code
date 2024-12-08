@@ -51,4 +51,5 @@ def part2(data):
     return len(antinodes)
 
 
+print(part1(data))
 print(part2(data))
